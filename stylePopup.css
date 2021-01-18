@@ -1,6 +1,14 @@
 sélecteur {
 propriété: valeur;
 }
+body{
+min-width: 505px; /* your desired width */
+max-width: 100%;
+min-height: 505px;
+max-height: 100%;
+position: relative;
+vertical-align:middle;
+}
 h2{
   text-align: center;
   color: pink;
@@ -9,8 +17,43 @@ h2{
 h5{
   font-size: 1.2em
 }
-#cadre1{
+#kitten{
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 32%;
+  left: 15%;
 }
+#rabbit{
+  position: absolute;
+  top: 32%;
+  left: 65%;
+}
+#deer{
+  position: absolute;
+  top: 70%;
+  left: 15%;
+}
+#puppy{
+  position: absolute;
+  top: 70%;
+  left: 65%;
+}
+/* #cadre1{
+  position: absolute;
+  top: 80%;
+  right: 0%;
+}
+#cadre2{
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+#cadre3{
+  position: absolute;
+  top: 80%;
+  right: 0%;
+}
+#cadre4{
+  position: absolute;
+  top: 20%;
+  left: 0%;
+} */
