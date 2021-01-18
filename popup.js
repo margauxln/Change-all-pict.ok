@@ -1,9 +1,15 @@
 
-var btnKitten = document.getElementById("kitten");
-btnKitten.addEventListener('click', function () {
-console.log("kitten");
-})
+// var btnKitten = document.getElementById("kitten");
+// btnKitten.addEventListener('click', function () {
+// console.log("kitten");
+// })
 
+document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("btTxtSubmit")) {
+      var chosenCat = e.target.src;
+      console.log(chosenCat);
+    }
+})
 
 // var listOfImages = Array.from(document.getElementsByTagName("img").innerHTML);
 // console.log(listOfImages);
