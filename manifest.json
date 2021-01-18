@@ -20,7 +20,7 @@
   }
 ],
 
-"web_accessible_resources": ["images/kitten.jpg"],
+"web_accessible_resources": ["images/kitten.jpg", "/images/bengal.jpg", "/images/tortue.jpg","/images/mignon.jpg"],
 "browser_action": {
   "default_icon": "iconchat.png",
   "default_title": "Bouh",
