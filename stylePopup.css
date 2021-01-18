@@ -8,6 +8,7 @@ min-height: 505px;
 max-height: 100%;
 position: relative;
 vertical-align:middle;
+background-color: grey;
 }
 h2{
   text-align: center;
@@ -37,23 +38,23 @@ h5{
   top: 70%;
   left: 65%;
 }
-/* #cadre1{
+ #cadre1{
   position: absolute;
-  top: 80%;
-  right: 0%;
+  top: 30%;
+  left: 10%;
 }
 #cadre2{
   position: absolute;
-  top: 40%;
-  left: 0%;
+  top: 30%;
+  left: 60%;
 }
 #cadre3{
   position: absolute;
-  top: 80%;
-  right: 0%;
+  top: 68%;
+  left: 10%;
 }
 #cadre4{
   position: absolute;
-  top: 20%;
-  left: 0%;
-} */
+  top: 68%;
+  left: 60%;
+}
