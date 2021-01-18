@@ -9,10 +9,6 @@ document.addEventListener("click", (e) => {
     }
 })
 
-chrome.storage.sync.get(['monImage'], function(result) {
-    console.log('Value currently is ' + result);
-});
-
 function reloadMainTab() {
     chrome.tabs.reload();
 }
