@@ -6,6 +6,7 @@ var url = chrome.extension.getURL(pict);
 
 for(var i = 0; i < img.length ; i++) {
     img[i].src = url;
+    img[i].srcset = url;
   }
 
   
