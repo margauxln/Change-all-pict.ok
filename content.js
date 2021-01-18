@@ -1,12 +1,12 @@
 var img = document.getElementsByTagName("img");
 console.log(img);
 
-var pict = "images/kitten.jpg"
-var url = chrome.extension.getURL(pict);
 
-for(var i = 0; i < img.length ; i++) {
-    img[i].src = url;
-    img[i].srcset = url;
+chrome.storage.sync.get(['monImage'], function(result) {
+  console.log('Value currently is ' + result.monImage);
+  for(var i = 0; i < img.length ; i++) {
+    img[i].src = result.monImage;
+    img[i].srcset = result.monImage;
   }
+});
 
-  
