@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Change all pict",
-  "description": "picoChat",
-  "version": "Transform all pictures of page with cat pictures",
+  "name": "picoChat",
+  "description": "Transform all pictures of page with cat pictures",
+  "version": "1.0",
   "permissions":[
      "http://*/",
      "https://*/",
