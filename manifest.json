@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "picoChat",
   "description": "Transform all pictures of page with cat pictures",
-  "version": "1.0",
+  "version": "2.3",
   "permissions":[
      "http://*/",
      "https://*/",
@@ -23,7 +23,7 @@
 "web_accessible_resources": ["images/kitten.jpg"],
 "browser_action": {
   "default_icon": "iconchat.png",
-  "default_title": "Bouh",
+  "default_title": "Bienvenue sur PictoChat",
   "default_popup": "popup.html"
 }
 }
