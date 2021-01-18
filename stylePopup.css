@@ -1,0 +1,16 @@
+sélecteur {
+propriété: valeur;
+}
+h2{
+  text-align: center;
+  color: pink;
+  font-size: 2em;
+}
+h5{
+  font-size: 1.2em
+}
+#cadre1{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
